@@ -4,10 +4,12 @@
   "description": "burger logger with MySQL, Node, Express, Handlebars and a homemade ORM ",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
-  },
   
-  "dependencies": {
+  "start": "node server"
+  
+  }
+  
+  ,"dependencies": {
     "body-parser": "^1.16.0",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
